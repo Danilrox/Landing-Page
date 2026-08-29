@@ -37,29 +37,59 @@ body {
     flex: 1;
 }
 
+/*
 .hero,
 .hero-secundary,
 .quote {
     display: flex;
     flex: 2 1 0;
 }
+*/
 
 .hero {
+    display: flex;
     flex-direction: column;
     background-color: #1F2937;
 }
 
 .container {
     display: flex;
-    justify-content: center;
+    margin: 72px 215px;
     flex: 1 1 0;
+    gap: 64px;
 }
 
 .text {
-
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
 }
 
+.title {
+    font-size: 48px;
+    color: #f1f5f4;
+    font-weight: 900;
+}
+
+.subtext {
+    color: snow;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    color: white;
+    padding: 8px 24px;
+    font-weight: 900;
+}
+
+
 .img {
+    display: flex;
+    flex: 1 1 0;
     background-color: grey;
 }
 
