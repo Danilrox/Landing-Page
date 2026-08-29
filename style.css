@@ -45,7 +45,22 @@ body {
 }
 
 .hero {
+    flex-direction: column;
     background-color: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 0;
+}
+
+.text {
+
+}
+
+.img {
+    background-color: grey;
 }
 
 .hero-secundary {
